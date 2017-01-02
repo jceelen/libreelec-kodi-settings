@@ -20,43 +20,47 @@
 <keymap>
   <global>
     <keyboard>
-     <volume_up>VolumeUp</volume_up>
-     <volume_down>VolumeDown</volume_down>
-     <enter mod="longpress">ContextMenu</return>
-     <!--<enter>Select</enter>
+     <!-- MX3 Air Mouse Keys working -->
+     <power>Suspend</power>
+     <key id="61636"></key> <!-- MX3 Airmouse Reverse button -->
+     <key id="61637"></key> <!-- MX3 Airmouse Forward button -->
+     <next_track>SkipNext</next_track>
+     <prev_track>SkipPrevious</prev_track>
+     <key id="61586">AspectRatio</key> <!-- MX3 Airmouse Zoom/Search button -->
+     <play_pause>PlayPause</play_pause>
+     <!-- MX3 Airmouse Zoom+ and Zoom- do not work -->
+     <key id="61654">ContextMenu</key> <!-- MX3 Airmouse Menu button -->
+     <home>ActivateWindow(Home)</home>
      <backspace>Back</backspace>
      <left>Left</left>
      <up>Up</up>
+     <enter>Select</enter>
      <down>Down</down>
      <right>Right</right>
-     <menu>ContextMenu</menu>
-     <home>ActivateWindow(Home)</home>
+     <volume_up>VolumeUp</volume_up>
+     <volume_down>VolumeDown</volume_down>
+     <volume_mute>Mute</volume_mute>
+     <!-- MX3 Airmouse Mouse on/off is not working -->
      <pageup>PageUp</pageup>
      <pagedown>PageDown</pagedown>
-     <volume_mute>Mute</volume_mute> -->
-     <!-- <key id="61626">Mute</key> MX3 Airmouse Next Track >>| button -->
-     <!-- <key id="61627">Mute</key> MX3 Airmouse Previous Track |<< button -->
-     <!--<key id="61586">ActivateWindow(shutdownmenu)</key> <!-- MX3 Airmouse Zoom/Search button -->
-     <!-- <key id="61654">ContextMenu</menu> NOT WORKING! MX3 Airmouse Menu button -->
-     <!-- <key id="61622"></key>  MX3 Airmouse Home Button button -->
-     <!-- <key id="53275">Mute</key> MX3 Airmouse Video Board button -->
-     <!-- <key id="61585">Mute</key> MX3 Airmouse Blocks button -->
+     <key id="53275">ActivateWindow(Videos,MovieTitles)</key> <!-- MX3 Airmouse Video Board button -->
+     <!-- MX3 Airmouse [!] is not working -->
+     <key id="61585">ActivateWindow(Settings)</key> <!-- MX3 Airmouse Blocks button -->
+     <key id="61448">Delete</key> <!-- MX3 Airmouse Del / Backspace button -->
+     <!-- MX3 Airmouse TV, Mic and colored buttons are not working -->
 
+     <!-- Extra modifications -->
+     <enter mod="longpress">ContextMenu</enter>
     </keyboard>
   </global>
   <FullscreenVideo>
     <keyboard>
-     <volume_down></volume_down>
-     <volume_up></volume_up>
      <key id="61636">SubtitleDelayMinus</key> <!-- MX3 Airmouse Reverse button -->
      <key id="61637">SubtitleDelayPlus</key> <!-- MX3 Airmouse Forward button -->
-     <t>subtitledelay</t>
-     <!-- BACKUP FROM NEWER FILES
      <backspace>Stop</backspace>
      <enter>PlayPause</enter>
      <menu>OSD</menu>
-   	 -->
   	 </keyboard>
-  </FullscreenVideo>  
+  </FullscreenVideo>
 </keymap>
 
