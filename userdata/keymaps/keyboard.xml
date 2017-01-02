@@ -20,26 +20,42 @@
 <keymap>
   <global>
     <keyboard>
+     <volume_up>VolumeUp</volume_up>
+     <volume_down>VolumeDown</volume_down>
+     <enter mod="longpress">ContextMenu</return>
+     <!--<enter>Select</enter>
+     <backspace>Back</backspace>
+     <left>Left</left>
+     <up>Up</up>
+     <down>Down</down>
+     <right>Right</right>
+     <menu>ContextMenu</menu>
+     <home>ActivateWindow(Home)</home>
+     <pageup>PageUp</pageup>
+     <pagedown>PageDown</pagedown>
+     <volume_mute>Mute</volume_mute> -->
+     <!-- <key id="61626">Mute</key> MX3 Airmouse Next Track >>| button -->
+     <!-- <key id="61627">Mute</key> MX3 Airmouse Previous Track |<< button -->
      <!--<key id="61586">ActivateWindow(shutdownmenu)</key> <!-- MX3 Airmouse Zoom/Search button -->
+     <!-- <key id="61654">ContextMenu</menu> NOT WORKING! MX3 Airmouse Menu button -->
+     <!-- <key id="61622"></key>  MX3 Airmouse Home Button button -->
+     <!-- <key id="53275">Mute</key> MX3 Airmouse Video Board button -->
+     <!-- <key id="61585">Mute</key> MX3 Airmouse Blocks button -->
+
     </keyboard>
   </global>
   <FullscreenVideo>
     <keyboard>
-	   <n>createbookmark</n>
-	   <b>ActivateWindow(videobookmarks)</b>
-	   <volume_down></volume_down>
-	   <volume_up></volume_up>
-     <!-- 
-     <play_pause>PlayPause</play_pause>
-	   <return>OSD</return>
- 	   <escape>Stop</escape>
-     <left>SmallStepBack</left>
-  	 <right>StepForward</right>
-  	 <up>NextSubtitle</up>
-  	 --> 
-  	 <key id="61636">SubtitleDelayMinus</key> <!-- MX3 Airmouse Reverse button -->
-  	 <key id="61637">SubtitleDelayPlus</key> <!-- MX3 Airmouse Forward button -->
-  	 <t>subtitledelay</t>
+     <volume_down></volume_down>
+     <volume_up></volume_up>
+     <key id="61636">SubtitleDelayMinus</key> <!-- MX3 Airmouse Reverse button -->
+     <key id="61637">SubtitleDelayPlus</key> <!-- MX3 Airmouse Forward button -->
+     <t>subtitledelay</t>
+     <!-- BACKUP FROM NEWER FILES
+     <backspace>Stop</backspace>
+     <enter>PlayPause</enter>
+     <menu>OSD</menu>
+   	 -->
   	 </keyboard>
   </FullscreenVideo>  
 </keymap>
